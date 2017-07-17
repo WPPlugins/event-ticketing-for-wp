@@ -1,0 +1,125 @@
+#seeds-icon {
+	background: url('../images/ticket.png') no-repeat;
+	height: 32px;
+	width: 32px;
+	float: left;
+	margin: 7px 5px 0 0;
+}
+
+/* report settings
+------------------ */
+
+.report-column-1 {
+	width: 65%;
+	float: left;
+	min-width: 300px;
+	padding: 10px;
+}
+
+.report-column-2 {
+	float: left;
+	width: 25%;
+
+}
+
+#chart {
+	margin: 10px;
+}
+
+#pie_chart_div {
+	width: 200px;
+	height: 200px;
+	margin: 20px auto 0;
+}
+
+#line_chart_rev, #line_chart_sales {
+	width: 100%;
+	height: auto;
+	margin: 0 auto 0;
+	overflow: hidden;
+}
+
+.report-fill {
+	padding: 10px;
+	margin-bottom: 10px;
+	float: left;
+	border: solid 1px #CCC;
+	background: #EEE;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	min-width: 280px;
+}
+
+.report-empty {
+
+}
+
+.seeds-sidebar-box {
+	border: solid 1px #DDD;
+	background: #6D87D6;
+	margin-bottom: 20px;
+	padding: 10px 15px;
+	-moz-border-radius: 20px 0 20px 0;
+	border-radius: 20px 0 20px 0;
+}
+
+.seeds-sidebar-box-2 {
+	border: solid 1px #DDD;
+	background: #36BBCE;
+	margin-bottom: 20px;
+	padding: 10px 15px;
+	-moz-border-radius: 20px 0 20px 0;
+	border-radius: 20px 0 20px 0;
+}
+
+.seeds-sidebar-box a, .seeds-sidebar-box-2 a{
+	color: #FFF;
+}
+#mc-embedded-subscribe {
+	margin-top: 5px;
+}
+
+/* other stuff
+-------------- */
+
+.wpet-delete a {
+	text-indent: -9999px;
+	overflow: hidden;
+	height: 10px;
+	width: 10px;
+	position: absolute;
+    margin: 8px 0 0 0;
+	background: url("../images/xit.gif") no-repeat scroll 0 0 transparent;
+}
+
+.wpet-delete a:hover {
+	cursor: pointer;
+	background: url("../images/xit.gif") no-repeat scroll -10px 0 transparent;
+}
+
+#add-ticket-option {
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+
+	.report-fill, .report-empty {
+		width: 45%;
+		float: left;
+	}
+
+	.gchart {
+		margin: 0 auto 0;
+		text-align: center;
+	}
+
+	.seeds-sidebar-box, .seeds-sidebar-box-2, .report-column-1, .report-column-2 {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.report-fill, .report-empty {
+		width: 100%;
+	}
+}
